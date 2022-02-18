@@ -142,8 +142,8 @@ header a {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background-img1.jpg);
   background-repeat: no-repeat;
-
-  /* background-color: #2f303a; */
+  background-size: cover;
+  background-color: #2f303a;
 }
 
 .main-title {
