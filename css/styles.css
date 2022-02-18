@@ -561,9 +561,13 @@ header a {
 
 .list-icon-wrapper {
   display: flex;
-  align-items: center;
 }
-
+.item-footer-icon {
+  list-style: none;
+}
+.item-footer-icon:not(:last-child) {
+  margin-right: 10px;
+}
 .footer-link-icon {
   display: flex;
   align-items: center;
@@ -573,16 +577,13 @@ header a {
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
 .footer-link-icon:hover,
 .footer-link-icon:focus {
   background-color: var(--hover-color);
-}
-
-.footer-link-icon:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* ======FOOTER END====== */
