@@ -105,6 +105,9 @@ header a {
 }
 
 .contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--font-text);
   font-weight: var(--font-weight-main);
   line-height: 1.14;
@@ -116,7 +119,12 @@ header a {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--hover-color);
+}
+
+.icon-header-mail {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* =====HEADER END====== */
@@ -205,6 +213,17 @@ header a {
   margin-right: 30px;
 }
 
+.icon-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: #f5f4fa;
+}
 .small-title {
   margin-bottom: 10px;
 
@@ -282,6 +301,10 @@ header a {
   padding-top: 30px;
 }
 
+.title-our-command {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .title-staff {
   margin-bottom: 10px;
 
@@ -293,20 +316,53 @@ header a {
 }
 
 .text-staff-position {
+  margin-bottom: 28px;
+
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  cursor: pointer;
+}
+
+.link-social-icon:hover,
+.link-social-icon:focus {
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+
+.link-social-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-social {
+  fill: currentColor;
+}
+
 /* ======SECTION COMMAND END====== */
 
-/* ======SECTION SPONSORS START====== */
-.section-sponsors {
+/* ======SECTION CLIENTS START====== */
+.section-clients {
   padding-top: 93px;
   padding-bottom: 88px;
 }
 
-.section-sponsors li {
+.section-clients li {
   list-style: none;
 }
 
@@ -324,23 +380,28 @@ header a {
   display: block;
 }
 
-.icon-sponsors {
+.link-icon {
+  display: flex;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
-
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #afb1b8;
 }
 
-.icon-sponsors:hover,
-.icon-sponsors:focus {
-  fill: #2196f3;
+.link-icon:hover,
+.link-icon:focus {
+  color: #2196f3;
   border: 1px solid #2196f3;
 }
 
-/* ======SECTION SPONSORS END====== */
+.icon-clients {
+  fill: currentColor;
+}
+
+/* ======SECTION CLIENTS END====== */
 
 /* =======PAGE PORTFOLIO START====== */
 .section-portfolio {
@@ -361,6 +422,7 @@ header a {
 .button-portfolio {
   border: 0;
   padding: 6px 22px;
+  border-radius: 4px;
 
   font-family: 'Roboto', sans-serif;
   font-weight: var(--font-weight-main);
@@ -369,16 +431,19 @@ header a {
   letter-spacing: 0.03em;
   color: var(--dark-color);
   background: #f5f4fa;
-  border-radius: 4px;
+
   cursor: pointer;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--secondary-color);
-  background-color: var(--hover-color);
   border: 0;
   border-radius: 4px;
+
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .cards-list {
@@ -468,6 +533,59 @@ header a {
 
 .footer-link-adress {
   color: var(--secondary-color);
+}
+
+.list-icon-wrapper li {
+  list-style: none;
+}
+/* STYLES FOR ICON */
+.footer-flex-container {
+  display: flex;
+}
+
+.link-wrapper {
+  margin-right: 70px;
+}
+
+.footer-icon-wrapper {
+  padding-top: 10px;
+}
+
+.text-footer-icon {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.list-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+  background-color: var(--hover-color);
+}
+
+.footer-link-icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ======FOOTER END====== */
