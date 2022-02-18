@@ -541,14 +541,11 @@ header a {
 /* STYLES FOR ICON */
 .footer-flex-container {
   display: flex;
+  align-items: baseline;
 }
 
 .link-wrapper {
   margin-right: 70px;
-}
-
-.footer-icon-wrapper {
-  padding-top: 10px;
 }
 
 .text-footer-icon {
