@@ -66,6 +66,11 @@ header a {
   margin-right: 93px;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .logo-span {
   color: var(--hover-color);
 }
@@ -511,6 +516,11 @@ header a {
   line-height: 1.19;
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer .item:not(:last-child) {
