@@ -13,3 +13,30 @@
 5. Если уже был создан ранее svg спрайт, для того что бы добавить в него svg елемент нам
    необходимо - создать svg спрайт данного элемента и скопирровать с него symbol вместе с
    внутренностью и после этого вставить этот код в наш готовый svg спрайт.
+   
+ 6. Выпадающее меню
+ Что бы сделать выпадающее меню необходимо для начала сделать основное меню из которого уже соотвественно будет выпадать второе меню.
+ Пример кода ```html 
+      <ul class="menu">
+      <li class="list-menu ">
+        <a href="" class="link-list-menu">Техника</a>
+        <ul class="submenu">
+          <li class="list-submenu">
+            <a href="" class="link-list-submenu">Духи</a>
+          </li>
+          <li class="list-submenu">
+            <a href="" class="link-list-submenu">Пасты</a>
+          </li>
+        </ul>
+      </li>
+      <li class="list-menu">
+        <a href="" class="link-list-menu">Косметика</a>
+        <ul class="submenu">
+          <li class="list-submenu">
+            <a href="" class="link-list-submenu">Духи</a>
+          </li>
+          <li class="list-submenu">
+            <a href="" class="link-list-submenu">Пасты</a>
+          </li>
+        </ul>
+        ```
