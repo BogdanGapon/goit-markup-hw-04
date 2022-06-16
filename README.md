@@ -24,10 +24,10 @@
         <a href="" class="link-list-menu">Техника</a>
         <ul class="submenu">
           <li class="list-submenu">
-            <a href="" class="link-list-submenu">Духи</a>
+            <a href="" class="link-list-submenu">Микроволновки</a>
           </li>
           <li class="list-submenu">
-            <a href="" class="link-list-submenu">Пасты</a>
+            <a href="" class="link-list-submenu">Стиральные машины</a>
           </li>
         </ul>
       </li>
